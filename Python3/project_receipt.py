@@ -6,7 +6,7 @@ luxurious_lamp_description = "Luxurious Lamp. Glass and Iron. 36 inches tall. Br
 luxurious_lamp_price = 52.15
 sales_tax = .088
 customer_one_total = lovely_loveseat_price
-# customer_one_intemization = lovely_loveseat_description 
+# customer_one_intemization = lovely_loveseat_description
 customer_one_tax = customer_one_total * sales_tax
 final_price = customer_one_tax + customer_one_total
 print("Customer One Items:")
