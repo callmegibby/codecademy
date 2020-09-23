@@ -20,11 +20,11 @@ if left_or_right == "right":
     print("You fell of a cliff")
 
     swim_or_around = input(
-        "Aweomse, do you want to swim across the lake or go around? (swim/around"
+        "Aweomse, do you want to swim across the lake or go around (swim/around)?"
     )
 if swim_or_around == "swim":
     print(
-        "You made it across but lost 5 health to sharks. You see a house and a river. Do you go inside the house or swim down river? (house/river"
+        "You made it across but lost 5 health to sharks. You see a house and a river. Do you go inside the house or swim down river (house/river?"
     )
 if swim_or_around == "around":
     print("You made it safley to the house, Congrats!")
