@@ -1,16 +1,3 @@
-'''
-First_game.py 
-    Console app 
-'''
-'''
-First_game.py 
-    Console app 
-'''
-'''
-First_game.py 
-
-    Console app 
-'''
 print("Welcome to my first game!")
 name = input("What is your name?")
 age = int(input("What is your age? "))
@@ -21,7 +8,7 @@ if age >= 18:
 
     wants_to_play = input("Do you want to play? ").lower()
 if wants_to_play == "yes":
-    print("you are staring with", health, "health")
+    print("You are staring with", health, "health")
     print("Let's play!")
 
     left_or_right = input("First choice... Left or Right (left/right)?")

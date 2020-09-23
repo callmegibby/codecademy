@@ -18,8 +18,9 @@ def c_to_f(c_temp):
     C0_in_farenheit = c_to_f(0)
     print(C0_in_farenheit)
 
+
 def get_force(mass, acceleration):
-        return mass * acceleration
+    return mass * acceleration
 
 
 train_force = get_force(train_mass, train_acceleration)
