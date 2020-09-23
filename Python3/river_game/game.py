@@ -7,29 +7,18 @@ game.py
     <https://www.w3schools.com/python/python_conditions.asp>
 
 import time 
-<<<<<<< HEAD
-=======
-import sys
->>>>>>> 222fd1f375acf3db5de58860c3238d375a32a178
 from time import sleep 
 
 a = 200
 b = 33
 if b > a:
   print("b is greater than a")
-<<<<<<< HEAD
 
     elif a < b:
     print("a and b are equal")
 
         else:
         print("a is greater than b")
-=======
-elif a == b:
-  print("a and b are equal")
-else:
-  print("a is greater than b")
->>>>>>> 222fd1f375acf3db5de58860c3238d375a32a178
 
 '''
 
@@ -50,18 +39,12 @@ if age >= 18:
     print("You are old enough to play!")
     wants_to_play = input("Do you want to play?").lower()
     # if else ... bye
-<<<<<<< HEAD
 elif: age <=18
     print("you are too young")
 
 else:
     (SystemExit)
 
-=======
-else:
-    (SystemExit)
-
->>>>>>> 222fd1f375acf3db5de58860c3238d375a32a178
 # if yes ..
 if wants_to_play == "yes":
     print("You are staring with", health, "health")
@@ -101,25 +84,13 @@ if swim_or_around == "swim":
 if swim_or_around == "around":
     print("You made it safely to the house, Congrats!")
     house_or_river = input("Final attempt, choose wisley...(house/river)")
-<<<<<<< HEAD
-=======
-    # do something
->>>>>>> 222fd1f375acf3db5de58860c3238d375a32a178
 
 # if house ...
 if house_or_river == "house":
     print("You made it safely to the house, Congrats!")
-<<<<<<< HEAD
     # end game
-=======
-    # do something
->>>>>>> 222fd1f375acf3db5de58860c3238d375a32a178
 
 # if river ...
 if house_or_river == "river":
     print("You have drowned")
-<<<<<<< HEAD
     # end game
-=======
-    # do something
->>>>>>> 222fd1f375acf3db5de58860c3238d375a32a178
