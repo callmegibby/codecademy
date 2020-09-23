@@ -22,6 +22,7 @@ if b > a:
 
 '''
 
+
 # Introduction
 print("Welcome to my first game!")
 
@@ -65,6 +66,7 @@ if left_or_right == "left":
     )
 
 # if right ...
+
 if left_or_right == "right":
     print("You fell of a cliff")
     # collecting input
