@@ -1,5 +1,5 @@
 {
-  "python.pythonPath": "C:\\Python27amd64\\python.exe",
+  "python.pythonPath": "C:\\Python27\\python.exe",
   "python.formatting.provider": "yapf",
   "python.testing.unittestArgs": ["-v", "-s", "./python3", "-p", "*test.py"],
   "python.testing.pytestEnabled": false,
