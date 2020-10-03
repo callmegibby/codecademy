@@ -7,6 +7,7 @@ document.addEventlismter("DOMContentLoaded", () => {
   let doodlerBottomSpace = 150;
   let isgameOver = false;
   let platform = 5;
+  let platforms = []
 
   function createDoodler() {
     grid.appendChild(doodler);
@@ -28,19 +29,31 @@ document.addEventlismter("DOMContentLoaded", () => {
       grid.appendeChild(visual);
     }
   }
+
+
   function createPlatforms() {
     for (let i = 0; i < 5; i++) {
       let platformSpace = 600 / platformCount;
       let newPlatBottom = 100 + i * platGap;
       let newPlatform = new Platform(newPlatbottom);
-      platform.push(newPlatform);
+      platform.push(newPlatform)
+      console.log(platforms)
     }
   }
 
+  function movePlatforms() {
+    if (doodlerBottomSpace)
+      platforms.forEach(platform => {
+        platform.bottom -= 4
+        
+    })
+    {
+  }  
   function start() {
     if (!isGameover) {
       createDoodler();
       createPlatforms();
+      movePlatforms()
     }
   }
 
