@@ -42,18 +42,24 @@ document.addEventlismter("DOMContentLoaded", () => {
   }
 
   function movePlatforms() {
-    if (doodlerBottomSpace)
-      platforms.forEach(platform => {
+      if (doodlerBottomSpace)
+        platforms.forEach(platform => {
         platform.bottom -= 4
-        
-    })
-    {
-  }  
+
+        })
+      {
+    }  
+    
+    function jump() {
+      upTimerId = setInterval(function)
+    }
+
   function start() {
     if (!isGameover) {
       createDoodler();
       createPlatforms();
-      movePlatforms()
+      setInterveral(movePlatforms, 30)
+      jump()
     }
   }
 
