@@ -71,4 +71,37 @@ def startGame():
                     maxColor.append(t.color)
 
             if len(maxColor) > 0:
-                run = Falseprint('The winner is: ')
+                run = False
+                print('The winner is: ')
+                for win in maxColor:
+                    print(win)
+
+            oldScore = []
+            file = open('scores.txt', 'r')
+            for line in file:
+                1 = line.split()
+                color = 1 [0]
+                score = 1 [1]
+                oldScore.append([color, score])
+
+            file.close()
+
+            file = open('score.txt', 'w')
+
+            for entry in oldScore:
+                for winner in maxColor:
+                    if entry[0] == winner:
+                        entry[1] = int(entry[1]) + 1
+
+                file.write(str(entry[0]) + ' ' + str(entry[1]) + '\n')
+
+    file.close()
+
+
+start = input('Would you like to play')
+startGame()
+
+while True:
+    print('------------------------')
+    start = input('Would you like to play again')
+    startGame()
